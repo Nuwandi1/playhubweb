@@ -25,17 +25,14 @@ const Weather = () => {
     fetchWeatherData();
   }, []);
 
-  const getWeatherVideo = () => {
-    // Your existing video logic
-  };
+ 
 
   if (loading) return <p>Loading weather data...</p>;
   if (error) return <p>{error}</p>;
 
   return (
     <div className="weather-container">
-      {getWeatherVideo()}
-
+      
       <h2 className="weather-title">Current Weather in {weatherData.name}</h2>
 
       <div className="weather-cards">

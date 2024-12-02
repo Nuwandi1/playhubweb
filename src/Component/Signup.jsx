@@ -46,7 +46,7 @@ export default function Signup() {
         email: "",
         password: "",
         confirmPassword: "",
-        userType: "arena", // Reset user type to default
+        userType: "arena", // default
       });
       alert("Account created successfully");
       navigate("/login");
@@ -66,7 +66,7 @@ export default function Signup() {
     <div className="Re_background-container">
       <div className="re_container">
         <div className="left-section">
-          <h1>{welcomeMessage}</h1> {/* Change text based on user type */}
+          <h1>{welcomeMessage}</h1> 
           <p>Join us today and get started!</p>
         </div>
         <div className="right-section">
@@ -105,7 +105,7 @@ export default function Signup() {
               minLength="8"
               required
             />
-            {/* Radio buttons for user type selection */}
+            {/* Radio buttons */}
             <div className="radio-group">
               <label>
                 <input

@@ -8,7 +8,7 @@ import WeatherBanner from "./Component/WeatherBanner";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Staffmanage from "./Component/Staffmanage";
 import CreateArena from "./Component/CreateArena";
-import Arena from "./Component/Arena";
+import Arena from "./Component/booking";
 import ShopHome from "./shop/ShopHome";
 import AddItemPage from "./shop/AddItemPage";
 import ShopNavbar from "./shop/ShopNavbar";
